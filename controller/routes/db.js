@@ -36,4 +36,4 @@ async function updateUsuario(id, usuario) {
     return await conn.query(sql, values);
 }
 
-module.exports = {selectUsuario, insertUsuario, deleteUsuario, updateUsuario}
+module.exports = {selectUsuario, insertUsuario, deleteUsuario, updateUsuario} 
